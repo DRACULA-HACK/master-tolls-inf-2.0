@@ -136,7 +136,7 @@ sleep 0.4
       echo -e "
 Tools Available to Install are :-
      (1) insta-hack
-     (02) Facebook-BruteForce {type 02}
+     (2) Facebook-BruteForce
      (3) Routersploit
      (4) Zphisher
      (5) Fsociety
@@ -505,7 +505,7 @@ chmod +x *
 bash setup.sh
 bash insta-hack.sh
     
-if [ "$instool" = 02 ];
+if [ "$instool" = 2 ];
        then  
 git clone https://github.com/IAmBlackHacker/Facebook-BruteForce
 cd Facebook-BruteForce
