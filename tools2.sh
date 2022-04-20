@@ -92,18 +92,16 @@ then
 echo -e " 
 $rset        $blue select (type the number)
 
-            (1)  Install the Tools 🔰
-
+            (1) know about the info of the tools 
             (2) to modify your termux terminal
-
-            (3) know about the info of the tools
+            (3) Install the Tools
 "
 echo -e "
          {{{{(((( Just write the number ))))}}}}
 "
       # 2nd read statement
       read -p " Enter Your Choice :- " choice
-      if [ "$choice" = 3 ];
+      if [ "$choice" = 1 ];
       then
       # In here It is writen for info of the different tools.
       echo -e "
@@ -132,7 +130,7 @@ sleep 0.4
             To Know more about T-load tool type 5.
  $red          Please Type 5 to know more about T-load tool.
 "
-      elif [ "$choice" = 1 ];
+      elif [ "$choice" = 3 ];
       then
       # In here Direct Installation of The tools are writen.
       echo -e "
@@ -156,7 +154,7 @@ Tools Available to Install are :-
       # By using ( -o ) <= statement you can use
       # two if statement in one...
       # So ( -o ) = you can use two situation together
-      if [ "$choice" = 3 -o "$choice" = 2 ];
+      if [ "$choice" = 1 -o "$choice" = 2 ];
       then
           # 3rd read statement
           read -p "Enter The Number Of Tool:- " tool
@@ -488,7 +486,7 @@ this tool makes it easy for you.
   " 
           fi
 
-          elif [ "$choice" = 1 ];
+          elif [ "$choice" = 3 ];
           then
           read -p ":- " instool
 
