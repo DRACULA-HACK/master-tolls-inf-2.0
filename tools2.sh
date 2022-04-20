@@ -92,7 +92,7 @@ then
 echo -e " 
 $rset        $blue select (type the number)
 
-        	(1) know about the info of the tools
+            (1) know about the info of the tools
             (2) to modify your termux terminal
             (3) Direct Install Tools
 "
@@ -505,8 +505,8 @@ chmod +x *
 bash setup.sh
 bash insta-hack.sh
       
-      elif [ "$instoll" = 2 ];
-        then
+      if [ "$instool" = 2 ];
+       then
 git clone https://github.com/IAmBlackHacker/Facebook-BruteForce
 cd Facebook-BruteForce
 python3 -m pip install requests bs4
