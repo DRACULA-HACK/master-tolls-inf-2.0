@@ -92,7 +92,7 @@ then
 echo -e " 
 $rset        $blue select (type the number)
 
-        	(1) know about the info of the tools
+            (1) know about the info of the tools
             (2) to modify your termux terminal
             (3) Direct Install Tools
 "
