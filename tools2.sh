@@ -92,16 +92,18 @@ then
 echo -e " 
 $rset        $blue select (type the number)
 
-            (1) know about the info of the tools
+            (1)  Install the Tools 🔰
+
             (2) to modify your termux terminal
-            (3) Direct Install Tools
+
+            (3) know about the info of the tools
 "
 echo -e "
          {{{{(((( Just write the number ))))}}}}
 "
       # 2nd read statement
       read -p " Enter Your Choice :- " choice
-      if [ "$choice" = 1 ];
+      if [ "$choice" = 3 ];
       then
       # In here It is writen for info of the different tools.
       echo -e "
@@ -130,13 +132,13 @@ sleep 0.4
             To Know more about T-load tool type 5.
  $red          Please Type 5 to know more about T-load tool.
 "
-      elif [ "$choice" = 3 ];
+      elif [ "$choice" = 1 ];
       then
       # In here Direct Installation of The tools are writen.
       echo -e "
 Tools Available to Install are :-
      (1) insta-hack
-     (2) Facebook-BruteForce
+     (02) Facebook-BruteForce {type 02}
      (3) Routersploit
      (4) Zphisher
      (5) Fsociety
@@ -154,7 +156,7 @@ Tools Available to Install are :-
       # By using ( -o ) <= statement you can use
       # two if statement in one...
       # So ( -o ) = you can use two situation together
-      if [ "$choice" = 1 -o "$choice" = 2 ];
+      if [ "$choice" = 3 -o "$choice" = 2 ];
       then
           # 3rd read statement
           read -p "Enter The Number Of Tool:- " tool
@@ -486,7 +488,7 @@ this tool makes it easy for you.
   " 
           fi
 
-          elif [ "$choice" = 3 ];
+          elif [ "$choice" = 1 ];
           then
           read -p ":- " instool
 
@@ -504,9 +506,9 @@ pip3 install -r requirements.txt
 chmod +x *
 bash setup.sh
 bash insta-hack.sh
-      
-      elif [ "$instoll" = 2 ];
-        then
+    
+if [ "$instool" = 02 ];
+       then  
 git clone https://github.com/IAmBlackHacker/Facebook-BruteForce
 cd Facebook-BruteForce
 python3 -m pip install requests bs4
