@@ -10,7 +10,7 @@ Install Same tools and you can know about the tools
 
 In this tool Kali Nethunter is ther for android.
 
-And 20 tools are there in derct
+And 20 tools are there fore derct install the tools
 # By MASTER-HACK
 
 
