@@ -726,9 +726,6 @@ chmod +x TBomb2.0.sh
        pkg install python2
        pkg install git
        git clone https://github.com/abhinavkavuri/PhoneInfoga
-       ls
-       cd PhoneInfoga
-       ls
        mv config.example.py config.py
        ls
        python3 -m pip install -r requirments.txt
