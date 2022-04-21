@@ -100,8 +100,10 @@ echo -e "
 $rset        $blue select (type the number)
 
             (1) know about the info of the tools
+                           
             (2) to modify your termux terminal
-            (3) Direct Install the Tools 
+                        
+            (3) Direct Install the Tools { 20 tools }
 "
 echo -e "
          {{{{(((( Just write the number ))))}}}}
