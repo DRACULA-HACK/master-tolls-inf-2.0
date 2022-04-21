@@ -31,7 +31,7 @@ bash tools2.sh
 # first version 
 
 https://github.com/DRACULA-HACK/Master-tools-inf.git
-
+https://github.com/DRACULA-HACK/master-tolls-inf-2.0/blob/main/Screenshot_2022-04-21-12-13-28-128_com.termux.jpg
 #
 #
 #
