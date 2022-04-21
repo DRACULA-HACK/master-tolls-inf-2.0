@@ -27,6 +27,15 @@ cd master-tolls-inf-2.0
 
 bash tools2.sh
 
+# first version 
+
+https://github.com/DRACULA-HACK/Master-tools-inf.git
+
+#
+#
+#
+#
+
 
 _________________________________________________________________________________________
 
