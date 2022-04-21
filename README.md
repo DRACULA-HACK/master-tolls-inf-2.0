@@ -32,8 +32,7 @@ bash tools2.sh
 
 https://github.com/DRACULA-HACK/Master-tools-inf.git
 #
-storage/main/Screenshot_2022-04-21-12-13-28-128_com
-#
+Screenshot_2022-04-21-12-13-28-128_com.termux.jpg
 
 
 _________________________________________________________________________________________
