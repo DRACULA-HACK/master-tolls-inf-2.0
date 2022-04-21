@@ -157,7 +157,7 @@ Tools Available to Install are :-
      (11) fbreport
      (12) Lucifer
      (13) metasploit
-     (14) Kali linux
+     (14) Kali linux {kali Nethunter} 
      (15) Facebook-BruteForce
      (16) Tbombe2.0
      (17) IP-Tracer
