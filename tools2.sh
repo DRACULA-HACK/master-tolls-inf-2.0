@@ -720,19 +720,9 @@ chmod +x TBomb2.0.sh
        
        elif [ "$instool" = 19 ];
        then
-       pkg update
-       pkg upgrade
-       pkg install python
-       pkg install python2
-       pkg install git
-       git clone https://github.com/abhinavkavuri/PhoneInfoga
-       mv config.example.py config.py
-       ls
-       python3 -m pip install -r requirments.txt
-       ls
-       chmod +x *
-       ls
-       clear && echo -e '\033[1;32m[*] Download starting...' && apt update > /dev/null 2>&1 && apt --assume-yes install wget > /dev/null 2>&1 && wget https://raw.githubusercontent.com/ExpertAnonymous/PhoneInfoga/master/phoneinfoga.sh -q && clear && bash phoneinfoga.sh
+       git clone https://github.com/ExpertAnonymous/PhoneInfoga
+       cd PhoneInfoga
+       bash phoneinfoga.sh
        
        elif [ "$instool" = 20 ];
        then
