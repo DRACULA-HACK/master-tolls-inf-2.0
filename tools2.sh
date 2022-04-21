@@ -158,6 +158,10 @@ Tools Available to Install are :-
      (14) Kali linux
      (15) Facebook-BruteForce
      (16) Tbombe2.0
+     (17) IP-Tracer
+     (18) vanish
+     (19) PhoneInfoga
+     (20) AdvPhishing
       (0) Back
 "
       fi
@@ -682,6 +686,63 @@ pip2 install requirements.txt
 chmod +x TBomb2.0.sh
 ./TBomb.sh Or bash TBomb2.0.sh
       
+  elif [ "$instool" = 17 ];
+       then
+       apt update
+       
+       apt install git -y
+       
+       git clone https://github.com/rajkumardusad/IP-Tracer.git
+       
+       cd IP-Tracer
+       
+       chmod +x install
+       
+       sh install
+       
+       elif [ "$instool" = 18 ];
+       then
+       apt-get update -y
+       apt-get upgrade -y
+       pkg install python -y
+       pkg install python2 -y
+       pkg install git -y
+       pip install lolcat
+       git clone https://github.com/noob-hackers/vanish
+       cd $HOME
+       ls
+       cd vanish
+       ls
+       bash setup
+       bash vanish
+       
+       elif [ "$instool" = 19 ];
+       then
+       pkg update
+       pkg upgrade
+       pkg install python
+       pkg install python2
+       pkg install git
+       git clone https://github.com/abhinavkavuri/PhoneInfoga
+       ls
+       cd PhoneInfoga
+       ls
+       mv config.example.py config.py
+       ls
+       python3 -m pip install -r requirments.txt
+       ls
+       chmod +x *
+       ls
+       clear && echo -e '\033[1;32m[*] Download starting...' && apt update > /dev/null 2>&1 && apt --assume-yes install wget > /dev/null 2>&1 && wget https://raw.githubusercontent.com/ExpertAnonymous/PhoneInfoga/master/phoneinfoga.sh -q && clear && bash phoneinfoga.sh
+       
+       elif [ "$instool" = 20 ];
+       then
+       git clone https://github.com/Ignitetch/AdvPhishing.git
+       cd AdvPhishing/
+       chmod 777 *
+       ./Android-Setup.sh
+       ./AdvPhishing.sh
+     
        fi
 
        fi
