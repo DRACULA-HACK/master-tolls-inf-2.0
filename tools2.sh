@@ -157,7 +157,8 @@ Tools Available to Install are :-
      (13) metasploit
      (14) Kali linux
      (15) Facebook-BruteForce
-     (0) Back
+     (16) Tbombe2.0
+      (0) Back
 "
       fi
 
@@ -667,6 +668,20 @@ elif [ "$instool" = 7 ];
        python3 -m pip install requests bs4
        python3 -m pip install mechanize
        
+       elif [ "$instool" = 16 ];
+       then
+       apt update
+apt upgrade
+pkg install python
+pkg install python2
+pkg install git
+git clone https://github.com/IncredibleHacker/TBomb2.0
+ls
+cd TBomb2.0
+pip2 install requirements.txt
+chmod +x TBomb2.0.sh
+./TBomb.sh Or bash TBomb2.0.sh
+      
        fi
 
        fi
