@@ -1,34 +1,39 @@
 #!/bin/bash
-#         
-#
-#				▒█▀▄▀█ █▀▀█ █▀▀ ▀▀█▀▀ █▀▀ █▀▀█ ░░ █░░█ █▀▀█ █▀▀ █░█ 
-#				▒█▒█▒█ █▄▄█ ▀▀█ ░░█░░ █▀▀ █▄▄▀ ▀▀ █▀▀█ █▄▄█ █░░ █▀▄  
-#				▒█░░▒█ ▀░░▀ ▀▀▀ ░░▀░░ ▀▀▀ ▀░▀▀ ░░ ▀░░▀ ▀░░▀ ▀▀▀ ▀░▀   0.2
-#         
-#  
-#
-#  
-#  
-#                                         
-#                  
-#
-#                 ***** MASTER-HACK*****
-#                
-#						Hi iam master-hack
-#						This tool is fore to help you
-#                		you can install the tools frome hear
-#             			and you can know about the tools which
-#						is on the script . this script is simple to use
-#						🙂🙂
-#
-#                        my github: https://github.com/DRACULA-HACK
-#
-#						contact: https://wa.me/+916235369260
-#						
-#                                                 
-#
-clear
 
+echo -e
+
+"
+
+
+              ▒█▀▄▀█ █▀▀█ █▀▀ ▀▀█▀▀ █▀▀ █▀▀█ ░░ █░░█ █▀▀█ █▀▀ █░█
+              ▒█▒█▒█ █▄▄█ ▀▀█ ░░█░░ █▀▀ █▄▄▀ ▀▀ █▀▀█ █▄▄█ █░░ █▀▄
+              ▒█░░▒█ ▀░░▀ ▀▀▀ ░░▀░░ ▀▀▀ ▀░▀▀ ░░ ▀░░▀ ▀░░▀ ▀▀▀ ▀░▀   0.2
+
+
+
+
+
+
+
+
+  .                                       ***** MASTER-HACK*****
+
+
+                                                Hi iam master-hack
+                                                This tool is fore to help you
+                                you can install the tools frome hear
+                                and you can know about the tools which
+                                                is on the script . this script is simple to use
+                                                🙂🙂
+
+                        my github: https://github.com/DRACULA-HACK
+
+                                                contact: https://wa.me/+916235369260
+
+"
+sleep 15
+
+clear
 clear
 red='\033[1;31m'
 rset='\033[0m'
