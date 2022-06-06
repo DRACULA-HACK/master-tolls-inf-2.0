@@ -1,38 +1,5 @@
 #!/bin/bash
 
-echo -e
-
-"
-
-
-              ▒█▀▄▀█ █▀▀█ █▀▀ ▀▀█▀▀ █▀▀ █▀▀█ ░░ █░░█ █▀▀█ █▀▀ █░█
-              ▒█▒█▒█ █▄▄█ ▀▀█ ░░█░░ █▀▀ █▄▄▀ ▀▀ █▀▀█ █▄▄█ █░░ █▀▄
-              ▒█░░▒█ ▀░░▀ ▀▀▀ ░░▀░░ ▀▀▀ ▀░▀▀ ░░ ▀░░▀ ▀░░▀ ▀▀▀ ▀░▀   0.2
-
-
-
-
-
-
-
-
-  .                                       ***** MASTER-HACK*****
-
-
-                                                Hi iam master-hack
-                                                This tool is fore to help you
-                                you can install the tools frome hear
-                                and you can know about the tools which
-                                                is on the script . this script is simple to use
-                                                🙂🙂
-
-                        my github: https://github.com/DRACULA-HACK
-
-                                                contact: https://wa.me/+916235369260
-
-"
-sleep 15
-
 clear
 clear
 red='\033[1;31m'
@@ -42,6 +9,37 @@ ylo='\033[1;33m'
 blue='\033[1;34m'
 cyan='\033[1;36m'
 pink='\033[1;35m'
+
+echo -e		$ylo
+
+"
+	▒█▀▄▀█ █▀▀█ █▀▀ ▀▀█▀▀ █▀▀ █▀▀█ ░░ █░░█ █▀▀█ █▀▀ █░█
+	▒█▒█▒█ █▄▄█ ▀▀█ ░░█░░ █▀▀ █▄▄▀ ▀▀ █▀▀█ █▄▄█ █░░ █▀▄
+	▒█░░▒█ ▀░░▀ ▀▀▀ ░░▀░░ ▀▀▀ ▀░▀▀ ░░ ▀░░▀ ▀░░▀ ▀▀▀ ▀░▀
+
+
+
+
+     ***** MASTER-HACK*****
+
+
+      Hi iam master-hack
+     This tool is fore to help you
+     you can install the tools frome hear
+     and you can know about the tools which
+     is on the script . this script is simple to use
+      🙂🙂
+
+      my github: https://github.com/DRACULA-HACK
+
+     contact: https://wa.me/+916235369260
+
+"
+
+sleep 15
+
+clear
+
 
 # MASTER-TOLLS-HELP :- Logo
 echo -e "    $red
@@ -55,9 +53,10 @@ echo -e "    $red
               🄼🄰🅂🅃🄴🅁-🅃🄾🄾🄻🅂-🄸🄽🄵 2.0
               +-+-+-+-+-+-+-+-+-+-+-+-+
 "
-sleep 2
+sleep 10
 
 clear
+
 while true
 do
 # MASTER-TOLLS-INF :- Logo
